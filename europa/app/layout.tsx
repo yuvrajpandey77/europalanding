@@ -7,8 +7,8 @@ import "./globals.css"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "Europa - SaaS Template",
-  description: "Enhance The Way You Present Your SAAS Business",
+  title: "Chainlink - Lorem Ipsum",
+  description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     generator: 'v0.app'
 }
 

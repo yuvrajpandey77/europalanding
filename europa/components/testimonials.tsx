@@ -2,51 +2,51 @@ import { Star } from "lucide-react"
 
 const testimonials = [
   {
-    quote: "Exceptional service, always reliable and supportive, highly recommend for all banking needs.",
-    name: "Benjamin Foster",
-    role: "Photographer",
+    quote: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    name: "Lorem Ipsum",
+    role: "Lorem",
     avatar: "/professional-bearded-man.png",
   },
   {
-    quote: "Professional and efficient, consistently putting clients first, an outstanding banking experience.",
-    name: "John Harris",
-    role: "Marketing Manager",
+    quote: "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    name: "Lorem Ipsum",
+    role: "Lorem",
     avatar: "/professional-man-dark-hair.jpg",
   },
   {
-    quote: "Outstanding customer service, seamless and hassle-free banking, highly trustworthy institution.",
-    name: "Alex Turner",
-    role: "Architect",
+    quote: "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+    name: "Lorem Ipsum",
+    role: "Lorem",
     avatar: "/professional-man-glasses.jpg",
   },
   {
-    quote: "Excellent services, easy and friendly approach.",
-    name: "Sarah Wilson",
-    role: "Designer",
+    quote: "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    name: "Lorem Ipsum",
+    role: "Lorem",
     avatar: "/professional-woman-diverse.png",
   },
   {
-    quote: "Personalized service, highly professional and trustworthy team, makes banking a pleasure.",
-    name: "David Thompson",
-    role: "Software Engineer",
+    quote: "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.",
+    name: "Lorem Ipsum",
+    role: "Lorem",
     avatar: "/young-professional-man.png",
   },
   {
-    quote: "Top-notch service, responsive and knowledgeable staff, always there when needed.",
-    name: "Michael Carter",
-    role: "Graphic Designer",
+    quote: "Totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.",
+    name: "Lorem Ipsum",
+    role: "Lorem",
     avatar: "/professional-man-smiling.png",
   },
   {
-    quote: "Friendly and helpful service, dependable banking experience.",
-    name: "James Roberts",
-    role: "Financial Analyst",
+    quote: "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.",
+    name: "Lorem Ipsum",
+    role: "Lorem",
     avatar: "/professional-man-suit.png",
   },
   {
-    quote: "Reliable and professional, excellent support team, makes managing finances effortless.",
-    name: "Robert Martinez",
-    role: "Business Consultant",
+    quote: "Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.",
+    name: "Lorem Ipsum",
+    role: "Lorem",
     avatar: "/professional-man-with-glasses-wearing-beige-jacket.jpg",
   },
 ]
@@ -76,19 +76,18 @@ export function Testimonials() {
         <div className="flex justify-center mb-6">
           <div className="flex items-center gap-2 text-xs tracking-widest text-gray-400 uppercase">
             <span className="w-2 h-2 rounded-full bg-[#9FDE14]"></span>
-            Client Testimonials
+            Lorem Ipsum
           </div>
         </div>
 
         {/* Heading */}
         <h2 className="text-4xl md:text-5xl font-serif italic text-white text-center mb-4">
-          What Our Client Say's About Us
+          Lorem Ipsum Dolor Sit Amet
         </h2>
 
         {/* Subtext */}
         <p className="text-gray-400 text-center max-w-2xl mx-auto mb-12 text-sm">
-          Our bank service is designed to empower your financial dreams with innovative solutions and unwavering
-          commitment.
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
         </p>
 
         {/* Testimonials Grid - Row 1 */}

@@ -9,30 +9,30 @@ export function Header() {
           <div className="w-8 h-8 rounded-full bg-primary flex items-center justify-center">
             <Globe className="w-5 h-5 text-primary-foreground" />
           </div>
-          <span className="text-xl font-semibold text-foreground">Europa</span>
+          <span className="text-xl font-semibold text-foreground">Chainlink</span>
         </div>
 
         {/* Navigation */}
         <nav className="hidden md:flex items-center gap-8">
           <a href="#" className="text-foreground/80 hover:text-foreground transition-colors text-sm">
-            Home
+            Lorem
           </a>
           <a href="#" className="text-foreground/60 hover:text-foreground transition-colors text-sm">
-            Features
+            Ipsum
           </a>
           <a href="#" className="text-foreground/60 hover:text-foreground transition-colors text-sm">
-            Pricing
+            Dolor
           </a>
           <a href="#" className="text-foreground/60 hover:text-foreground transition-colors text-sm">
-            Blog
+            Sit
           </a>
           <a href="#" className="text-foreground/60 hover:text-foreground transition-colors text-sm">
-            About
+            Amet
           </a>
         </nav>
 
         <button className="px-5 py-2.5 rounded-full bg-[#9FDE14] text-[#0d1f17] text-sm font-medium hover:bg-[#8fce04] transition-colors">
-          Contact Us
+          Lorem Ipsum
         </button>
       </div>
     </header>

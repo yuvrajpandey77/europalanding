@@ -9,9 +9,9 @@ export function StatsSection() {
               234<span className="text-3xl font-medium md:text-4xl">M</span>
             </h3>
             <p className="mt-3 text-sm text-gray-500">
-              Supporting multiple
+              Lorem ipsum dolor
               <br />
-              currencies for users.
+              sit amet consectetur.
             </p>
           </div>
 
@@ -21,9 +21,9 @@ export function StatsSection() {
               768<span className="text-[#9FDE14]">K</span>
             </h3>
             <p className="mt-3 text-sm text-gray-400">
-              Gaining new users
+              Sed do eiusmod tempor
               <br />
-              every single month.
+              incididunt ut labore.
             </p>
           </div>
 
@@ -33,9 +33,9 @@ export function StatsSection() {
               5.0<span className="text-3xl md:text-4xl">★</span>
             </h3>
             <p className="mt-3 text-sm text-gray-500">
-              High star ratings from
+              Ut enim ad minim veniam
               <br />
-              satisfied users.
+              quis nostrud exercitation.
             </p>
           </div>
 
@@ -45,9 +45,9 @@ export function StatsSection() {
               $8.8<span className="text-3xl font-medium md:text-4xl">B</span>
             </h3>
             <p className="mt-3 text-sm text-gray-500">
-              Generating increased
+              Duis aute irure dolor in
               <br />
-              revenue consistently
+              reprehenderit in voluptate.
             </p>
           </div>
         </div>

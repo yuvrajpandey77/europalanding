@@ -3,33 +3,33 @@ import { Layers, Settings, Shield, CreditCard, Cloud, BarChart3 } from "lucide-r
 const features = [
   {
     icon: Layers,
-    title: "Extremely Flexible",
-    description: "Our platform offers extreme flexibility, allowing users to tailor it to their specific needs.",
+    title: "Lorem Ipsum",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
   },
   {
     icon: Settings,
-    title: "Easy To Customize",
-    description: "We prioritize concrete security, implementing robust encryption and protection.",
+    title: "Dolor Sit",
+    description: "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
   },
   {
     icon: Shield,
-    title: "Concrete Security",
-    description: "We provide easy payment options, allowing you to handle transactions with just a few clicks.",
+    title: "Amet Consectetur",
+    description: "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
   },
   {
     icon: CreditCard,
-    title: "Easy Payment",
-    description: "With an intuitive interface and a wide range of options, it is designed to be easy to customize.",
+    title: "Adipiscing Elit",
+    description: "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
   },
   {
     icon: Cloud,
-    title: "Cloud based access",
-    description: "Whether you're processing sensitive information or simply browsing, your data is fully secure.",
+    title: "Sed Do Eiusmod",
+    description: "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.",
   },
   {
     icon: BarChart3,
-    title: "Advanced Analytics",
-    description: "Additionally, our platform is cloud-based, meaning you can access your data from anywhere.",
+    title: "Tempor Incididunt",
+    description: "Totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.",
   },
 ]
 
@@ -40,16 +40,15 @@ export function EnhancedCorporate() {
         {/* Badge */}
         <div className="flex items-center justify-center gap-2 mb-6">
           <span className="w-2 h-2 rounded-full bg-[#9FDE14]"></span>
-          <span className="text-sm text-gray-500 tracking-wide">HOW IT WORKS</span>
+          <span className="text-sm text-gray-500 tracking-wide">LOREM IPSUM</span>
         </div>
 
         {/* Heading */}
-        <h2 className="text-4xl md:text-5xl font-bold text-center text-black mb-4">Enhanced Corporate Framework</h2>
+        <h2 className="text-4xl md:text-5xl font-bold text-center text-black mb-4">Lorem Ipsum Dolor Sit Amet</h2>
 
         {/* Subtext */}
         <p className="text-center text-gray-500 max-w-2xl mx-auto mb-12 text-sm">
-          Fintech (Financial Technology) combines innovative technology with financial services to streamline processes
-          like payments, lending, investments, and banking.
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.
         </p>
 
         {/* Cards Grid */}
