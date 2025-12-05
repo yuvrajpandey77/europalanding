@@ -43,12 +43,18 @@ const testimonials = [
     role: "Financial Analyst",
     avatar: "/professional-man-suit.png",
   },
+  {
+    quote: "Reliable and professional, excellent support team, makes managing finances effortless.",
+    name: "Robert Martinez",
+    role: "Business Consultant",
+    avatar: "/professional-man-with-glasses-wearing-beige-jacket.jpg",
+  },
 ]
 
 export function Testimonials() {
   return (
     <section
-      className="relative py-32 overflow-hidden"
+      className="relative py-32 overflow-x-visible"
       style={{
         background: "radial-gradient(ellipse 80% 60% at 50% 100%, #1a3a2a 0%, #0d1f17 50%, #0a1810 100%)",
       }}
@@ -65,7 +71,7 @@ export function Testimonials() {
         }}
       />
 
-      <div className="relative z-10 w-full px-6">
+      <div className="relative z-10 w-full px-6 overflow-x-visible">
         {/* Badge */}
         <div className="flex justify-center mb-6">
           <div className="flex items-center gap-2 text-xs tracking-widest text-gray-400 uppercase">
@@ -113,9 +119,9 @@ export function Testimonials() {
         </div>
 
         {/* Testimonials Grid - Row 2 */}
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-6 max-w-[106rem] mx-auto md:-translate-x-28">
-          {testimonials.slice(3, 7).map((testimonial, index) => (
-            <div key={index} className="rounded-2xl px-10 py-8 min-h-[280px] flex flex-col" style={{ backgroundColor: "#E8EBE4" }}>
+        <div className="flex flex-col md:flex-row gap-6 w-full md:justify-end">
+          {testimonials.slice(3, 8).map((testimonial, index) => (
+            <div key={index} className="rounded-2xl px-10 py-8 min-h-[280px] flex flex-col flex-shrink-0 md:w-[410px]" style={{ backgroundColor: "#E8EBE4" }}>
               <p className="text-gray-800 font-medium mb-8 text-lg leading-relaxed flex-grow">"{testimonial.quote}"</p>
               <div className="flex items-center justify-between">
                 <div className="flex items-center gap-4">
