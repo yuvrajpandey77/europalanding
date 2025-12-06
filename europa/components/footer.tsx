@@ -52,7 +52,7 @@ export function Footer() {
           <div className="lg:col-span-1">
             <div className="flex items-center gap-2 mb-4">
               <Globe className="w-8 h-8 text-[#9FDE14]" />
-              <span className="text-white text-xl font-bold">Chainlink</span>
+              <span className="text-white text-xl font-bold">Profitlink</span>
             </div>
             <p className="text-gray-400 text-sm mb-6 leading-relaxed">
               Lorem ipsum dolor sit amet,
@@ -146,7 +146,7 @@ export function Footer() {
 
         {/* Bottom Bar */}
         <div className="border-t border-gray-700/50 pt-6 flex flex-col md:flex-row justify-between items-center gap-4">
-          <p className="text-gray-500 text-sm">Copyright © 2025 all rights reserved by Chainlink</p>
+          <p className="text-gray-500 text-sm">Copyright © 2025 all rights reserved by Profitlink</p>
           <div className="flex gap-6">
             <a href="#" className="text-gray-400 text-sm hover:text-white transition-colors">
               Lorem Ipsum

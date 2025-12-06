@@ -9,7 +9,7 @@ export function Header() {
           <div className="w-8 h-8 rounded-full bg-primary flex items-center justify-center">
             <Globe className="w-5 h-5 text-primary-foreground" />
           </div>
-          <span className="text-xl font-semibold text-foreground">Chainlink</span>
+          <span className="text-xl font-semibold text-foreground">Profitlink</span>
         </div>
 
         {/* Navigation */}
