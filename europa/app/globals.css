@@ -3,7 +3,7 @@
 
 @custom-variant dark (&:is(.dark *));
 
-/* Chainlink theme - dark green with lime accents */
+/* Profitlink theme - dark green with lime accents */
 :root {
   --background: #0d1f17;
   --foreground: #ffffff;
